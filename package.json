@@ -1,0 +1,17 @@
+{
+  "name": "svelte-kit-experiments",
+  "version": "1.0.0",
+  "description": "Documenting experiments with Svelte and Svelte Kit",
+  "main": "",
+  "repository": "https://github.com/synesthesia/svelte-kit-experiments",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Elve",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.2"
+  }
+}
