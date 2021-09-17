@@ -1,7 +1,7 @@
 # Experimenting with Svelte and Svelte Kit
 
 This repository includes my experimental code as I work through some beginner's exploration of the [Svelte](https://svelte.dev/) front-end framework, and it's partner application framework [Svelte Kit](https://kit.svelte.dev/docs).
-The accompanying notes can be found [here]();
+The accompanying notes can be found [here](https://www.synesthesia.co.uk/project/svelte/).
 
 ## Experiments
 
