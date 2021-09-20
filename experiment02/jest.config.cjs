@@ -1,7 +1,20 @@
 module.exports = {
-  transform: {
-    '^.+\\.svelte$': 'svelte-jester',
-    '^.+\\.js$': 'babel-jest',
+  preset: 'ts-jest',
+  testEnvironment: 'jsdom',
+  "transform": {
+    "^.+\\.svelte$": [
+      "svelte-jester",
+      {
+        "preprocess": true
+      }
+    ],
+    "^.+\\.js$": "babel-jest",
+    "^.+\\.ts$": "ts-jest"
   },
-  moduleFileExtensions: ['js', 'svelte'],
+  "moduleFileExtensions": [
+    "js",
+    "ts",
+    "svelte"
+  ]
 }
+
