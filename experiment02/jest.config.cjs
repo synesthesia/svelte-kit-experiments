@@ -4,6 +4,7 @@ module.exports = {
 			'svelte-jester',
 			{
 				preprocess: './svelte.config.test.cjs'
+				
 			}
 		],
 		'^.+\\.ts$': 'ts-jest',
@@ -17,5 +18,6 @@ module.exports = {
 			'<rootDir>/.svelte-kit/build/runtime/app$1'
 		]
 	},
-	setupFilesAfterEnv: ['<rootDir>/jest-setup.ts']
+	setupFilesAfterEnv: ['<rootDir>/jest-setup.ts'],
+	extensionsToTreatAsEsm: [".svelte"]
 };
